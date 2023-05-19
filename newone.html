@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .central
+    {
+        background-color: rgb(231, 231, 221);
+        height: 25rem;
+        align-items: center;
+        margin-right: 15rem;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+    .scndry-2nd
+    {
+        display: flex;
+    }
+    .section-2
+    {
+        display: flex;
+        background-color: rgb(231, 231, 221);
+        height: 15 rem;
+        flex-basis: 75%;
+        margin-right: 2em;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+    .secndry
+    {
+        background-color: rgb(231, 231, 221);
+        height: 4rem;
+        align-items: center;
+        margin-right: 30em;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+    .section-1
+    {
+        flex-basis: 25%;
+        margin-right: 5em;
+    }
+    .section-1r
+    {
+        background-color: rgb(231, 231, 221);
+        height: 10rem;
+        align-items: center;
+        margin-right: 5em;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+    .central2
+    {
+        
+        background-color: rgb(231, 231, 221);
+        height: 25rem;
+        align-items: center;
+        margin-right: 15rem;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+    .pie-chart
+    {
+        margin-left: 5rem;
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        background: conic-gradient(rgb(194, 194, 226) 70%, rgb(91, 131, 150) 30%);
+        display:flex;
+        align-items: center;
+        margin-right: 2rem;
+        position: relative;
+        top: -250px;
+       
+    }
+
+    .pie
+    {
+        display: flex;
+        flex-direction: column;
+        display:flex;
+
+        align-items: center;
+    }
+    .scndry2
+    {
+        display: flex;
+        background-color: rgb(231, 231, 221);
+        height: 5rem;
+        align-items: center;
+        margin-right: 15rem;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+    .total-votes
+    {
+        position: relative;
+        top: -15rem;
+        display:flex;
+
+    }
+
+</style>
+<body>
+    <h2>Home</h2>
+    <div class="central">
+        <div class="secndry">
+            <h1>FlyWeight Polls</h1>
+        </div>
+        <br>
+        <div class="scndry-2nd">
+            <div class="section-1">
+                <button class="poll">
+                    <h3>Create Polls</h3>
+                </button>  <br><br>
+                <div class="section-1r">
+
+                    <input type="radio" id="checkbox1" name="1" />
+                    <label for="checkbox1">Sports</label><br />
+    
+                    <input type="radio" id="checkbox2" name="1" />
+                    <label for="checkbox2">Games</label><br />
+    
+                    <input type="radio" id="checkbox3" name="1" />
+                    <label for="checkbox3">Health</label><br />
+    
+                    <input type="radio" id="checkbox4" name="1" />
+                    <label for="checkbox4">Politics</label><br />
+
+                    <button class="tags">
+                        <h5>filter by tags</h5>
+                    </button><br>
+    
+                 
+                </div>
+            </div>
+            <div class="section-2">
+                <table>
+                    <tr>
+                        <th>Number</th>
+                        <th>Poll Question</th>
+                        <th>Total Votes</th>
+                        <th>Tags</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>blashh vlashhh</td>
+                        <td>67</td>
+                        <td>tgggggiii</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>suhanaaaa</td>
+                        <td>1000</td>
+                        <td>Jaaaaabin</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>suhanaaaa</td>
+                        <td>1000</td>
+                        <td>Jaaaaabin</td>
+                    </tr>
+                </table>
+            </div>
+            
+        </div>
+    </div>
+</body>
+<body class="page2">
+    <h2>Poll Detail</h2>
+    <div class="central2">
+        <div class="scndry2">
+            <h1>FlyWeight Polls</h1>
+        </div>
+        <div class="scndry2-2nd">
+            <h2>Will India win ICC Cup Next time?</h2>
+            <button class="btn1">vote on this poll</button>
+            <br><br>
+
+            <table>
+                <tr>
+                    <th>Number</th>
+                    <th>Option</th>
+                    <th>Votes</th>
+                </tr>
+                <tr>
+                    <td>
+                        1
+                    </td>
+                    <td> India will win</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>India will not win</td>
+                    <td>15</td>
+                </tr>
+            </table>
+            <br><br>
+
+            <div class="footer">
+                <p>Tags: Sports, Games</p>
+            </div>
+            <div class="pie">
+        
+                <div class="pie-chart" > 
+            
+                </div>
+                
+                <p class="total-votes">Total Votes : 22</p>
+            </div>
+           
+        </div>
+      
+    </div>
+   
+    
+
+</body>
+<body>
+    <style>
+        .central3
+        {
+            background-color: rgb(231, 231, 221);
+            height: 4rem;
+            align-items: center;
+            margin-right: 30em;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        }
+        .new
+        {
+            
+            background-color: rgb(231, 231, 221);
+            height: 25rem;
+            align-items: center;
+            margin-right: 30em;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        }
+        .vote
+        {
+            width: 5cm;
+        }
+    </style>
+    <h2>Vote on this Poll</h2>
+    <div class="new">
+        <div class="central3">
+            <h1>FlyWeight Polls</h1>
+        </div>
+        <div>
+            <h2>Will India win ICC world cup next time?</h2>
+           <input type="radio" id="Yes" name="choice"/>
+           <label for="Yes">Yes</label><br>
+    
+           <input type="radio" id="No" name="choice"/>
+           <label for="No">No</label><br><br>
+    
+           <button class="vote">
+            <p>vote</p>
+           </button>
+    
+        </div>
+    </div>
+   
+</body>
+<body>
+    <style>
+        .fly
+        {
+            
+            background-color: rgb(231, 231, 221);
+            height: 4rem;
+            align-items: center;
+            margin-right: 30em;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        }
+        .maine
+        {
+            
+            background-color: rgb(231, 231, 221);
+            height: 34rem;
+            align-items: center;
+            margin-right: 30em;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        }
+        .qn
+        {
+            
+            background-color: rgb(231, 231, 221);
+            height: 22rem;
+            align-items: center;
+            margin-right: 30em;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        }
+        .pll
+        {
+            width: 5cm;
+        }
+    </style>
+    <h2>CreatePoll</h2>
+    <div class="maine">
+        <div class="fly">
+            <h2>FlyWeight Polls</h2>
+        </div>
+        <div>
+            <div class="qn">
+                <form>
+                    <label for="qns"><h3>Question</h3></label><br>
+                    <input type="text" id="name" name="name" value="type your qns"><br>
+                    
+                    <label for="ans"><h3>Ans options</h3></label>
+                    <input type="text" id="option" name="option" value="option 1"><br>
+                    <input type="text" id="option" name="option" value="option 2"><br>
+                    <input type="text" id="option" name="option" value="option 3"><br>
+                    
+                    <br>
+                    <button>
+                        <p>add option</p>
+                    </button>
+
+                     
+                    <label for="tag"><h3>Comma Seperated Tags</h3></label>
+                    <input type="text" id="option" name="option" value="tag1 tag2 tag3"><br>
+                </form>
+                  
+            </div>
+            <br><br>
+            <button class="pll">
+                <h5>Create Poll</h5>
+            </button>
+
+        </div>
+    </div>
+</body>
+</html>
